@@ -1,8 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yash Rajput - Interactive Developer Portfolio
 
-## Getting Started
+A modern, interactive developer portfolio built to showcase projects, skills, and experience with a focus on immersive user experiences. This portfolio utilizes a unique scrollytelling mechanism and high-performance animations to engage visitors.
 
-First, run the development server:
+## 🌟 Key Features
+
+- **Interactive Scrollytelling**: Custom canvas-based image sequence animation (`ScrollyCanvas`) that responds to user scroll position.
+- **Sticky Overlay Content**: Seamlessly integrated text overlays that appear alongside the scroll animations.
+- **Dynamic Projects Showcase**: Detailed projects section featuring rich descriptions, image galleries, and interactive elements powered by Framer Motion.
+- **Modern Dark Theme UI**: A refined, dark aesthetic built with Tailwind CSS v4 for a premium and professional look.
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile viewing experiences.
+- **Minimalist Footer**: Clean, accessible links to professional profiles (GitHub, LinkedIn, LeetCode) and contact information.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Library**: [React 19](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these steps:
+
+### Prerequisites
+
+You need to have Node.js installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yashrajputs/Yash-portfolio.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Yash-portfolio
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
+
+### Running the Development Server
+
+Start the development server:
 
 ```bash
 npm run dev
@@ -10,27 +57,31 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. The page auto-updates as you edit the files.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+src/
+├── app/
+│   ├── layout.tsx     # Global layout and font configuration
+│   └── page.tsx       # Main landing page combining all sections
+├── components/
+│   ├── Overlay.tsx    # Sticky text content overlay
+│   ├── Projects.tsx   # Project cards and showcase section
+│   └── ScrollyCanvas.tsx # Canvas image sequence scroll animation
+└── ...
+```
 
-## Learn More
+## 📬 Contact
 
-To learn more about Next.js, take a look at the following resources:
+**Yash Rajput**
+- Email: yashrajput8232@gmail.com
+- LinkedIn: [Yash Rajput](https://www.linkedin.com/in/yash-rajput-30a8a3264/)
+- GitHub: [@yashrajputs](https://github.com/yashrajputs)
+- LeetCode: [yashrajput7182](https://leetcode.com/u/yashrajput7182/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Built with ❤️ using Next.js and Tailwind CSS.*
